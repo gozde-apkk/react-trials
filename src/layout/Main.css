@@ -1,0 +1,84 @@
+
+
+.main-container {
+
+}
+
+
+.header-container {
+    padding: 2rem 1.5rem;
+    background-color: rgb(23, 23, 154);
+    color: white;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+    
+}
+
+.left-side-container{
+    width: 15%;
+    padding: 2rem 1.5rem;
+    background-color: rgb(186, 149, 220);
+    color: wheat;
+}
+
+.page-container {
+    flex: 1 ;
+    padding: 2rem 1.5rem;
+}
+
+.footer-container {
+    background-color: brown;
+    color: wheat;
+    padding: 2rem 1.5rem;
+}
+
+
+.sayac-container{
+    display: table;
+}
+
+.sayac-con{
+    padding: 1.5rem;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-cart {
+     padding: 1rem;
+     margin: 1rem;;
+     border : 1px solid #ccc;
+     border-radius: 1rem;
+     max-width: 240px;
+     min-width: 100px;
+
+}
+
+
+.product-cart > img {
+    max-width: 100%;
+}
+
+.product-cart > .son-urun {
+    background-color: rgb(231, 86, 34);
+    color: #fff;
+    font-weight: bold;
+  
+    
+    position: absolute;
+    padding: 0.5rem;
+    overflow: hidden;
+    rotate: 30deg;
+}
+
+.product-cart > .product-price {
+    background-color: rgb(231, 86, 34);
+    font-size: 1.5rem;
+    padding: 0.25rem;
+}
